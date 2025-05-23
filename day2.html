@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Box Models</title>
+  <style>
+
+    .box {
+      width: 150px;
+      height: 50px;
+      margin: 20px;
+      display: inline-block;
+    }
+    
+    .padding {
+      background-color: lightgreen;
+      padding: 10px;
+      border: 1px solid black;
+    }
+    
+    .border-solid {
+      border: 5px solid blue;
+      background-color: olive;
+    }
+    
+    .border-dotted {
+      border: 5px dotted yellow;
+      background-color: green;
+    }
+    
+    .border-dashed {
+      border: 5px dashed purple;
+      background-color: skyblue;
+    }
+    
+    .border-groove {
+      border: 5px groove green;
+      background-color: orange;
+    }
+    
+    .default-margin {
+      border: 1px solid black;
+      background-color: lightgray;
+      margin: 50px;
+    }
+  </style>
+</head>
+<body bgcolor="pink"><center>
+  <h1>CSS Box Models</h1>
+  <div class="box padding">PADDING</div><br>
+  <div class="box border-solid">BORDER SOLID</div><br>
+  <div class="box border-dotted">BORDER DOTTED</div><br>
+  <div class="box border-dashed">BORDER DASHED</div><br>
+  <div class="box border-groove">BORDER GROOVE</div><br>
+  <div class="box default-margin">DEFAULT MARGIN</div><br>
+  </center>
+</body>
+</html>
